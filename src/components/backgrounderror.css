@@ -1,0 +1,20 @@
+.backgrounderror-name{
+    color: aliceblue;
+    position: absolute;
+    top: 87%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    font-size: xx-large;
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
