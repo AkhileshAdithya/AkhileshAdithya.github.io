@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Image from '../components/Image'
 
@@ -23,14 +22,14 @@ const IndexPage = () => (
       <Background />
       <Container fluid style={{height: `100vh`}}>
       <Navbar expand="md" variant="dark" collapseOnSelect={true}>
-        <Link to="/"><Navbar.Brand>Akhilesh Adithya</Navbar.Brand></Link>
+        <a href="https://akhileshadithya.github.io/"><Navbar.Brand>Akhilesh Adithya</Navbar.Brand></a>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <Link to="/about"><div className="navbar-content">About</div></Link>
-            <Link to="/projects"><div className="navbar-content">Projects</div></Link>
-            <Link to="/books"><div className="navbar-content">Books</div></Link>
+            <a href="https://akhileshadithya.github.io/about"><div className="navbar-content">About</div></a>
+            <a href="https://akhileshadithya.github.io/projects"><div className="navbar-content">Projects</div></a>
+            <a href="https://akhileshadithya.github.io/books"><div className="navbar-content">Books</div></a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
