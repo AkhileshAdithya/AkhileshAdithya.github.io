@@ -72,7 +72,7 @@ class Projects extends Component {
                             </Card>
                         </Col>
                         <Col xs={12} lg={6} className="projects-card">
-                            <Card className="projects-card-hover" onClick={() => this.clickHandler("https://thinkbeyond.web.app")}>
+                            <Card className="projects-card-hover" onClick={() => this.clickHandler("https://think-beyond.web.app")}>
                                 <Image src="thinkbeyond.png" alt="thinkbeyond" />
                                 <Card.Body>
                                     <Card.Title>Think Beyond</Card.Title>

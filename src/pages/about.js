@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import { Col, Container, ProgressBar, Row, Nav, Navbar } from 'react-bootstrap'
 import '../components/about.css'
 import Background from '../components/background'
+import SEO from '../components/seo'
 
 class About extends Component {
     render() {
         return (
             <div>
+                <SEO  title="About" description="Hi There, I'm Akhilesh Adithya, a student|web developer|designer" />
                 <Background />
                 <Navbar expand="md" variant="dark" collapseOnSelect={true}>
                     <a href="https://akhileshadithya.github.io/"><Navbar.Brand>Akhilesh Adithya</Navbar.Brand></a>
