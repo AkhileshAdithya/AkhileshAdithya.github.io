@@ -13,7 +13,7 @@
     background-clip: text;
 }
 .about{
-    background-color: rgba(0, 0, 0, 0.897);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .about-intro{
     color: azure;
@@ -36,7 +36,7 @@
 .about-text2{
     color: azure;
     font-size: 1.9vh;
-    padding-bottom: 1.7vh;
+    padding-bottom: 2.5vh;
 }
 .about-subtitle{
     color: azure;
@@ -45,4 +45,11 @@
     font-weight: bold;
     padding-left: 6vw;
     padding-right: 6vw;
+}
+.about-bottom{
+    padding-bottom: 2vh;
+    margin-bottom: 3vh;
+}
+.about-bar{
+    padding-bottom: 3.6vh;
 }

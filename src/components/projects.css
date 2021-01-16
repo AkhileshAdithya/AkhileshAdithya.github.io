@@ -1,5 +1,5 @@
 .projects{
-    background-color: rgba(0, 0, 0, 0.521);
+    background-color: rgb(0, 0, 0);
 }
 .projects-text{
     color: azure;
@@ -16,4 +16,8 @@
 }
 .projects-card-hover{
     transition: 0.3s;
+}
+.projects-bottom{
+    padding-bottom: 3vh;
+    margin-bottom: 2vh;
 }

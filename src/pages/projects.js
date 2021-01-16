@@ -10,11 +10,7 @@ class Projects extends Component {
     clickHandler = (link) => {
         window.open(link, "_blank")
     }
-    render() {        
-        this.data = {
-            name: ["ColorClock", "Protonmail Theme", "Portfolio Website", "Think Beyond"],
-            desc: ["A react app that is themed based on the time converted to hexcode","CSS themes for the popular email provider protonmail.com","A portfolio website made with gatsby and three.js","An e-commerce website made for a startup of a friend"]
-        }        
+    render() {              
         return (
             <div>
                 <SEO title="Projects" description="Akhilesh Adithya's projects" />

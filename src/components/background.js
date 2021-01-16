@@ -3,6 +3,9 @@ import * as THREE from 'three'
 import './background.css'
 
 class Background extends Component {
+  state={
+    height: "100%"
+  }
   componentWillUnmount(){
     for(let i = 0; i < this.scene.children.length; i++){
       this.scene.children[i].geometry.dispose()
@@ -65,6 +68,7 @@ class Background extends Component {
         this.camera.aspect = window.innerWidth/window.innerHeight
         this.camera.updateProjectionMatrix()
         this.renderer.setSize(window.innerWidth, window.innerHeight)
+        this.setState({height: window.innerHeight})
       }
     }
 
@@ -118,7 +122,7 @@ class Background extends Component {
 
   render() {
     return (
-      <div style={{ width: `100%`, height: `100%`}}>
+      <div style={{ width: `100%`, height: `auto`, height: `-webkit-fill-available`}}>
       </div>
     )
   }

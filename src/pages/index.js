@@ -20,7 +20,6 @@ const IndexPage = () => (
     <Layout>
       <SEO title="Homepage" description="Akhilesh Adithya is Student | Web Designer | Developer" />
       <Background />
-      <Container fluid style={{height: `100vh`}}>
       <Navbar expand="md" variant="dark" collapseOnSelect={true}>
         <a href="https://akhileshadithya.github.io/"><Navbar.Brand>Akhilesh Adithya</Navbar.Brand></a>
         <Navbar.Toggle aria-controls="navbar-nav" />
@@ -33,6 +32,7 @@ const IndexPage = () => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <Container fluid className="index">
         <Row>
           <Col className="home-name d-flex justify-content-center align-items-center" style={{height: `55vh`}}>
             Akhilesh Adithya

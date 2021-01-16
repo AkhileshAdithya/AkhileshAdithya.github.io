@@ -22,7 +22,7 @@ class About extends Component {
                     </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <Container>                
+                <Container className="about">                
                     <Row>
                         <Col className="about-intro d-flex justify-content-center align-items-center">
                             Hi There, I'm Akhilesh Adithya
@@ -99,7 +99,7 @@ class About extends Component {
                                 <Col xs={12} lg={4} className="about-text2 d-flex justify-content-center align-items-center">
                                     C++
                                 </Col>
-                                <Col xs={12} lg={8}>
+                                <Col className="about-bar" xs={12} lg={8}>
                                     <ProgressBar now={40} />
                                 </Col>                            
                             </Row>
@@ -148,11 +148,11 @@ class About extends Component {
                                     <Row className="about-subtitle d-flex justify-content-center align-items-center">
                                         <span className="about-edu-name">Birla Institute of Science and Technology, Goa</span>
                                     </Row>
-                                    <Row className="about-text d-flex justify-content-center align-items-center">
-                                        This was when I was introduced to computer science as well as developement. Some of my seniors were really
+                                    <Row className="about-text d-flex justify-content-center align-items-center about-bottom">
+                                        <Col className="about-bottom">This was when I was introduced to computer science as well as developement. Some of my seniors were really
                                         helpful and got me on track. This was also when I learnt about FOSS and was influenced by it's ideology. I learnt 
                                         web development and react through the offiial docs. I am currently planning on learning AI/ML  
-                                    </Row>
+                                    </Col></Row>
                                 </Col>
                             </Row>
                         </Col>
