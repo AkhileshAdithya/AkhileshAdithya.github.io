@@ -98,7 +98,8 @@ class BackgroundError extends Component {
   render() {
     return (
       <div ref={ref => (this.mount = ref)} style={{ width: `100vw`, height: `100vh` }}>
-        <div className="backgrounderror-name">Error, Page not found</div>
+        <div className="backgrounderror-name-pnf">Error, Page not found</div>
+        <div className="backgrounderror-name-home"><a className="backgrounderror-name-link" href="https://akhileshadithya.github.io/">Home</a></div>
       </div>
     )
   }

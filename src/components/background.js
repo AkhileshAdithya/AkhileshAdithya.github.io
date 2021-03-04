@@ -122,7 +122,7 @@ class Background extends Component {
 
   render() {
     return (
-      <div style={{ width: `100%`, height: `auto`, height: `-webkit-fill-available`}}>
+      <div style={{ width: `100%`, height: `auto`}}>
       </div>
     )
   }

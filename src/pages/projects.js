@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Col, Container, Row, Nav, Navbar, Card } from 'react-bootstrap'
 import Background from '../components/background'
-import Image from '../components/Image'
+import Image from '../components/image'
 import SEO from '../components/seo'
 
 import '../components/projects.css'
@@ -30,7 +30,7 @@ class Projects extends Component {
                 <Container className="projects">
                     <Row>
                         <Col className="projects-text d-flex justify-content-center align-items-center">
-                            Hi, these are some of the projects I've built
+                            Hi, here are some of the projects I've built
                         </Col>
                     </Row>
                     <Row>
@@ -74,6 +74,17 @@ class Projects extends Component {
                                     <Card.Title>Think Beyond</Card.Title>
                                     <Card.Text>
                                     An e-commerce website made for a startup of a friend
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col xs={12} lg={6} className="projects-card">
+                            <Card className="projects-card-hover" onClick={() => this.clickHandler("https://github.com/AkhileshAdithya/ProtonMail-Dark-Themes")}>
+                                <Image src="neural-network-emotion.png" alt="neural_network_emotion" />
+                                <Card.Body>
+                                    <Card.Title>Emotion Classifier</Card.Title>
+                                    <Card.Text>
+                                        A Convolutional Neural Network that classifies a given 48x48 pixel image based on emotion
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
