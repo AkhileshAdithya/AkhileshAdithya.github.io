@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"3XHS":function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return u}));var r=e("dI71"),i=e("q1tI"),o=e.n(i),u=function(n){function t(){return n.apply(this,arguments)||this}return Object(r.a)(t,n),t.prototype.render=function(){return o.a.createElement("div",null,"Hi there, I am Akhilesh Adithya")},t}(i.Component)}}]);
-//# sourceMappingURL=component---src-pages-about-js-d18fc3e683cfa6885baf.js.map
