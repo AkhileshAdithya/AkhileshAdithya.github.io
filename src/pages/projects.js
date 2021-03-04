@@ -79,7 +79,7 @@ class Projects extends Component {
                             </Card>
                         </Col>
                         <Col xs={12} lg={6} className="projects-card">
-                            <Card className="projects-card-hover" onClick={() => this.clickHandler("https://github.com/AkhileshAdithya/ProtonMail-Dark-Themes")}>
+                            <Card className="projects-card-hover" onClick={() => this.clickHandler("https://github.com/AkhileshAdithya/CNN-emotion")}>
                                 <Image src="neural-network-emotion.png" alt="neural_network_emotion" />
                                 <Card.Body>
                                     <Card.Title>Emotion Classifier</Card.Title>
