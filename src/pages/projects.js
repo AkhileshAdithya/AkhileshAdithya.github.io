@@ -23,7 +23,7 @@ class Projects extends Component {
                     <Nav>
                         <a href="https://akhileshadithya.github.io/about"><div className="navbar-content">About</div></a>
                         <a href="https://akhileshadithya.github.io/projects"><div className="navbar-content">Projects</div></a>
-                        <a href="https://akhileshadithya.github.io/books"><div className="navbar-content">Books</div></a>
+                        <a href="https://akhileshadithya.github.io/xertz"><div className="navbar-content">Xertz</div></a>
                     </Nav>
                     </Navbar.Collapse>
                 </Navbar>

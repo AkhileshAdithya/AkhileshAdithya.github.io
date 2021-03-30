@@ -29,7 +29,7 @@ class About extends Component {
                         <Nav>
                             <a href="https://akhileshadithya.github.io/about"><div className="navbar-content">About</div></a>
                             <a href="https://akhileshadithya.github.io/projects"><div className="navbar-content">Projects</div></a>
-                            <a href="https://akhileshadithya.github.io/books"><div className="navbar-content">Books</div></a>
+                            <a href="https://akhileshadithya.github.io/xertz"><div className="navbar-content">Xertz</div></a>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -54,8 +54,9 @@ class About extends Component {
                             <Row>
                                 <Col className="about-text-white">
                                     I am a full stack web developer proficient in MERN stack, MEVN stack, Three.js and
-                                    Scripting in python and JS. I am currently learning AI/ML in n with tensorflow. I am also an
-                                    avid reader who loves reading all sorts of books. I'm mainly interested in books of Asian origins.
+                                    Scripting in python and JS. I am currently learning AI/ML focussed on Nueral Networks with keras library. 
+                                    I'm also interested in computer security, pentesting and prevention of virtual machine detection.
+                                    I am also an avid reader who loves reading all sorts of books. I'm mainly interested in books of Asian origins.
                                 </Col>
                             </Row>
                         </Col>
@@ -320,6 +321,27 @@ class About extends Component {
                                 <Col xs={12} lg={3} className="about-year d-flex justify-content-center">
                                     <span className="about-edu-year">2019-2023</span>
                                 </Col>
+                                <Col xs={12} lg={9}>
+                                    <Row className="about-subtitle d-flex justify-content-center align-items-center">
+                                        <span className="about-edu-name">Birla Institute of Science and Technology, Goa</span>
+                                    </Row>
+                                    <Row className="about-text d-flex justify-content-center align-items-center">
+                                    This was when I was introduced to computer science as well as developement. Some of my seniors were really
+                                        helpful and got me on track. This was also when I learnt about FOSS and was influenced by it's ideology. I learnt
+                                        web development and react through the offcial docs. I am currently learning AI/ML focussed around neural networks and the keras library.
+                                        I am also learning about pentesting and computer security.
+                                    </Row>
+                                </Col>
+                                <Col>
+                                    <Row className="about-spacing-big">
+
+                                    </Row>
+                                </Col>
+                            </Row>
+                            {/* <Row>
+                                <Col xs={12} lg={3} className="about-year d-flex justify-content-center">
+                                    <span className="about-edu-year">2019-2023</span>
+                                </Col>
                                 <Col>
                                     <Row className="about-subtitle d-flex justify-content-center align-items-center">
                                         <span className="about-edu-name">Birla Institute of Science and Technology, Goa</span>
@@ -330,7 +352,7 @@ class About extends Component {
                                         web development and react through the offcial docs. I am currently learning AI/ML focussed around neural networks and the keras library.
                                     </Col></Row>
                                 </Col>
-                            </Row>
+                            </Row> */}
                         </Col>
                     </Row>
                 </Container>
