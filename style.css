@@ -13,6 +13,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.zind{
+    z-index: 10;
+}
 .nav-text{
     font-size: 3vh;
 }
@@ -42,6 +45,80 @@ body {
     font-size: 3.4vh;
     filter: brightness(0) invert(1);
 }
-.zind{
+.about-cont{
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 13vh;
     z-index: 10;
+}
+.about-bg{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.about-img{
+    max-width: 80%;
+    padding-top: 5vh;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.about-name{
+    text-align: center;
+    font-size: 3.8vh;
+    color: white;
+    padding-top: 8vh;
+    padding-bottom: 3vh;
+}
+.about-text{
+    padding-bottom: 3vh;
+    color: white;
+    font-size: 2.3vh;
+    text-align: center;
+    padding-top: 2vh;
+}
+.about-img-out{
+    text-align: center;
+    font-size: 4vh;
+}
+.about-icon{
+    filter: brightness(0) invert(1);
+    font-size: 4vh;
+    height: 12vh;
+}
+.about-icon-center{
+    text-align: center;
+}
+.about-icon-text{
+    color: white;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+    font-size: 2vh;
+}
+.about-libraries{
+    color: white;
+    padding-top: 6vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    font-size: 4vh;
+}
+.about-edu-year{
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 5vh;
+    color: white;
+}
+.about-edu-ins{
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.about-edu-desc{
+    color: white;
+    font-size: 2.2vh;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.about-space{
+    padding-bottom: 8vh;
 }
