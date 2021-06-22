@@ -1088,3 +1088,9 @@ function hashCode (s) {
     }
     return hash;
 };
+
+function splasher (){
+    window.setInterval( multipleSplats(parseInt(Math.random() * 20) + 5), 2000)
+}
+
+window.setInterval(splasher, 10000)
