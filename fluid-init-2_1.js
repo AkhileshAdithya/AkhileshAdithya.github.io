@@ -25,7 +25,7 @@ let config = {
     SIM_RESOLUTION: 128,
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
-    DENSITY_DISSIPATION: 0.3, // 1 for gradual dissipation, 0 for no dissipation
+    DENSITY_DISSIPATION: 0.4, // 1 for gradual dissipation, 0 for no dissipation
     VELOCITY_DISSIPATION: 0.3,
     PRESSURE: 0.8,
     PRESSURE_ITERATIONS: 20,
