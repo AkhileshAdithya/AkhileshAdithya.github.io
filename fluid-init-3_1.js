@@ -25,7 +25,7 @@ let config = {
     SIM_RESOLUTION: 128,
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
-    DENSITY_DISSIPATION: 0.4, // 1 for gradual dissipation, 0 for no dissipation
+    DENSITY_DISSIPATION: 0.5, // 1 for gradual dissipation, 0 for no dissipation
     VELOCITY_DISSIPATION: 0.3,
     PRESSURE: 0.8,
     PRESSURE_ITERATIONS: 20,
@@ -1090,7 +1090,7 @@ function hashCode (s) {
 };
 
 function splasher (){
-    window.setInterval( multipleSplats(parseInt(Math.random() * 20) + 5), 2000)
+    window.setInterval( multipleSplats(parseInt(Math.random() * 20) + 8), 2000)
 }
 
-window.setInterval(splasher, 10000)
+window.setInterval(splasher, 7000)

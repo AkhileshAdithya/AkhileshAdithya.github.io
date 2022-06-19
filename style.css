@@ -45,6 +45,37 @@ body {
     font-size: 3.4vh;
     filter: brightness(0) invert(1);
 }
+.pub-cont{
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 13vh;
+    z-index: 10;
+}
+.pub-bg{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.pub-title-div{
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+}
+.pub-subtitle{
+    text-align: left;
+    font-size: 3.4vh;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vh;
+}
+.pub-text{
+    text-align: left;
+    font-size: 2vh;
+    color: white;
+    padding-bottom: 3vh;
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
 .about-cont{
     background-color: rgba(0, 0, 0, 0.75);
     margin-top: 13vh;
@@ -94,8 +125,8 @@ body {
 }
 .about-libraries{
     color: white;
-    padding-top: 6vh;
-    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
     text-align: center;
     font-size: 4vh;
 }
@@ -121,6 +152,49 @@ body {
 }
 .about-space{
     padding-bottom: 8vh;
+}
+.about-work-img{
+    max-width: 50%;
+    padding-top: 5vh;
+    text-align: center;
+    padding-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.about-work-name{
+    text-align: center;
+    font-size: 3.8vh;
+    color: white;
+}
+.about-work-title{
+    text-align: center;
+    padding-top: 7vh;
+}
+.about-work-title-text{
+    font-size: 3.4vh;
+    color: white;
+}
+.about-work-title-year{
+    font-size: 2vh;
+    color: white;
+    padding-left: 2vh;
+}
+.about-work-dur{
+    text-align: left;
+    font-size: 2.6vh;
+    color: white;
+    padding-top: 12vh;
+}
+.about-work-text{
+    padding-top: 4vh;
+}
+.about-work-text-text{
+    font-size: 2.2vh;
+    color: white;
+}
+.about-work-text-list{
+    padding-top: 2vh;
 }
 .projects-bg{
     background-color: rgba(0, 0, 0, 0.75);
