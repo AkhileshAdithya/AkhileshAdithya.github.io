@@ -76,6 +76,10 @@ body {
     padding-left: 8vh;
     padding-right: 8vh;
 }
+
+/* .about-work{
+    max-width: 75%;
+} */
 .about-cont{
     background-color: rgba(0, 0, 0, 0.75);
     margin-top: 13vh;
@@ -155,7 +159,7 @@ body {
 }
 .about-work-img{
     max-width: 50%;
-    padding-top: 5vh;
+    padding-top: 8vh;
     text-align: center;
     padding-bottom: 3vh;
     margin-left: auto;
