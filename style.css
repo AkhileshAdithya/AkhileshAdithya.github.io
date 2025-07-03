@@ -91,7 +91,7 @@ body {
 }
 .about-img{
     max-width: 80%;
-    padding-top: 5vh;
+    padding-top: 8vh;
     text-align: center;
     padding-bottom: 5vh;
 }
@@ -115,16 +115,21 @@ body {
 }
 .about-icon{
     filter: brightness(0) invert(1);
-    font-size: 4vh;
     height: 12vh;
+    max-width: 100%;
+    object-fit: contain;
 }
 .about-icon-center{
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 12vh;
 }
 .about-icon-text{
     color: white;
     text-align: center;
-    padding-top: 2vh;
+    padding-top: 1vh;
     padding-bottom: 6vh;
     font-size: 2vh;
 }
@@ -158,9 +163,23 @@ body {
 .about-space{
     padding-bottom: 8vh;
 }
+.about-interest-title{
+    font-size: 2.8vh;
+    font-weight: bold;
+    color: white;
+}
 .about-work-img{
     max-width: 50%;
-    padding-top: 8vh;
+    padding-top: 12vh;
+    text-align: center;
+    padding-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.about-work-img-amazon{
+    max-width: 50%;
+    padding-top: 22vh;
     text-align: center;
     padding-bottom: 3vh;
     margin-left: auto;

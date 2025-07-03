@@ -18,8 +18,46 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-let canvas = document.getElementsByTagName('canvas')[0];
-resizeCanvas();
+// Wait for DOM to be ready before initializing WebGL
+document.addEventListener('DOMContentLoaded', function() {
+    initializeFluidSimulation();
+});
+
+function initializeFluidSimulation() {
+    // Check if canvas exists
+    let canvas = document.getElementsByTagName('canvas')[0];
+    if (!canvas) {
+        console.error('Canvas element not found');
+        return; // Stays black background
+    }
+
+    // Check WebGL support
+    if (!isWebGLSupported()) {
+        console.log('WebGL not supported, keeping black background');
+        return;
+    }
+
+    try {
+        // Initialize WebGL
+        initWebGL(canvas);
+    } catch (error) {
+        console.error('WebGL initialization failed:', error);
+        return; // Canvas stays invisible, black background shows
+    }
+}
+
+function isWebGLSupported() {
+    try {
+        let testCanvas = document.createElement('canvas');
+        let gl = testCanvas.getContext('webgl') || testCanvas.getContext('experimental-webgl');
+        return !!gl;
+    } catch (e) {
+        return false;
+    }
+}
+
+function initWebGL(canvas) {
+    resizeCanvas();
 
 let config = {
     SIM_RESOLUTION: 128,
@@ -1093,4 +1131,6 @@ function splasher (){
     window.setInterval( multipleSplats(parseInt(Math.random() * 20) + 8), 2000)
 }
 
-window.setInterval(splasher, 7000)
+window.setInterval(splasher, 7000);
+
+}
